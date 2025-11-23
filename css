@@ -1,0 +1,126 @@
+/* ------------------------------- */
+/*          TIPOGRAFÍA             */
+/* ------------------------------- */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;   /* Fondo claro */
+    color: #222;                 /* Texto oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------- */
+/*        ENCABEZADOS Y TEXTO     */
+/* ------------------------------- */
+
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+/* ------------------------------- */
+/*              LINKS              */
+/* ------------------------------- */
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #004999;
+    text-decoration: underline;
+}
+
+/* ------------------------------- */
+/*      BARRA DE NAVEGACIÓN        */
+/* ------------------------------- */
+
+nav {
+    background-color: #333;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffdd55;
+}
+
+/* ------------------------------- */
+/*           IMÁGENES              */
+/* ------------------------------- */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+
+/* ------------------------------- */
+/*     BOTONES / LINKS DESTACADOS  */
+/* ------------------------------- */
+
+.button {
+    display: inline-block;
+    padding: 12px 18px;
+    background-color: #0066cc;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: #004999;
+}
+
+/* ------------------------------- */
+/*             CONTENEDOR          */
+/* ------------------------------- */
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* ------------------------------- */
+/*             FOOTER              */
+/* ------------------------------- */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

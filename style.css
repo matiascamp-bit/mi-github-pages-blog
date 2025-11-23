@@ -1,3 +1,7 @@
+/* ------------------------------- */
+/*          TIPOGRAFÍA             */
+/* ------------------------------- */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -7,6 +11,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* ------------------------------- */
+/*        ENCABEZADOS Y TEXTO     */
+/* ------------------------------- */
 
 h1, h2, h3 {
     margin-top: 20px;
@@ -30,6 +38,10 @@ p {
     margin-bottom: 16px;
 }
 
+/* ------------------------------- */
+/*              LINKS              */
+/* ------------------------------- */
+
 a {
     color: #0066cc;
     text-decoration: none;
@@ -39,6 +51,10 @@ a:hover {
     color: #004999;
     text-decoration: underline;
 }
+
+/* ------------------------------- */
+/*      BARRA DE NAVEGACIÓN        */
+/* ------------------------------- */
 
 nav {
     background-color: #333;
@@ -56,6 +72,10 @@ nav a:hover {
     color: #ffdd55;
 }
 
+/* ------------------------------- */
+/*           IMÁGENES              */
+/* ------------------------------- */
+
 img {
     max-width: 100%;
     height: auto;
@@ -63,6 +83,10 @@ img {
     margin: 15px 0;
     border-radius: 6px;
 }
+
+/* ------------------------------- */
+/*     BOTONES / LINKS DESTACADOS  */
+/* ------------------------------- */
 
 .button {
     display: inline-block;
@@ -78,12 +102,20 @@ img {
     background-color: #004999;
 }
 
+/* ------------------------------- */
+/*             CONTENEDOR          */
+/* ------------------------------- */
+
 .container {
     width: 90%;
     max-width: 900px;
     margin: auto;
     padding-top: 20px;
 }
+
+/* ------------------------------- */
+/*             FOOTER              */
+/* ------------------------------- */
 
 footer {
     background-color: #222;
